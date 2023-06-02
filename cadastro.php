@@ -6,13 +6,13 @@ $sobrenome=$_POST['sobrenome'];
 $email=$_POST['email'];
 $senha=$_POST['senha'];
 
-$sql="INSERT INTO infolsd(nome,sobrenome,email,senha)value('$nome,$sobrenome,$email,$senha')";
+$sql="INSERT INTO user(nome,sobrenome,email,senha)value('$nome,$sobrenome,$email,$senha')";
 
 if(mysqli_query($conect,$sql)){
-    echo"deu foi booooooom boy:";
+    echo"erro".mysqli_connect_error();
 }
 else{
-    echo"erro...... sei la kk:".mysqli_connect_error();
+    echo"deu foi booooooom boy :D";
 
 }
 

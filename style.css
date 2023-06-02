@@ -6,4 +6,5 @@ form{
     background-color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
+    border: 13px aliceblue 0;
 }

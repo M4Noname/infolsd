@@ -12,6 +12,6 @@ if(!$conect){
 }
 
 else{
-    echo"deu foi booom boy";
+    echo"cadastro concluido com sucesso:   ";
 }
 ?>
