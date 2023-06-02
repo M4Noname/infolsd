@@ -10,21 +10,25 @@
 <body>
 
     <h1>cadastro random</h1>
-    <form action="cadastro.php" method="post">
 
+    <!-- aqui vamos para a front do cadastro -->
+    <form action="cadastro.php" method="post"> 
+        <!-- 'post' é usado para q as informações do cadastro n apareçam na barra de link do site -->
         <label for="">nome</label>
+        <!-- 'label' é usado somente para q apareça aquele texto ao lado da caixa de escrita -->
         <input type="text" name="nome"><br><br>
-
+        <!-- 'input' é a caixa de escrita -->
         <label for="">sobrenome</label>
         <input type="text" name="sobrenome"><br><br>
-
+        <!-- o tipo 'text' faz com q textos possam ser escritos-->
         <label for="">e-mail</label>
         <input type="email" name="email"><br><br>
-        
+        <!-- o tipo 'email' faz com q seja obrigatorio a utilização de @ no texto -->
         <label for="">senha</label>
         <input type="password" name="senha"><br><br>
-
+        <!-- o tipo 'password' faz com q o texto escrito n consiga ser lido -->
         <button>cadastrar</button>
+        <!-- button cria um botão clicavel -->
 
     </form>
 </body>
